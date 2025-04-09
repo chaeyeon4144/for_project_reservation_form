@@ -10,8 +10,8 @@
           <span></span>
         </div>
         <div class="nav-links">
-          <router-link to="/myreservation">예약하기</router-link>
-          <router-link to="/reservationform">나의 예약</router-link>
+          <router-link to="/reservationform">예약하기</router-link>
+          <router-link to="/myreservation">나의 예약</router-link>
           <router-link to="/ServiceInfo">서비스 안내</router-link>
           <router-link to="/faq">FAQ</router-link>
           <router-link to="/contact">문의하기</router-link>

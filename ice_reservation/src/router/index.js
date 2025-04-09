@@ -6,6 +6,7 @@ import Contact from "@/views/Contact.vue";
 import MyReservation from "@/views/MyReservation.vue";
 import ReservationForm from "@/views/ReservationForm.vue";
 import ServiceInfo from "@/views/ServiceInfo.vue";
+import ReservationStatus from "@/views/ReservationStatus.vue";
 
 const routes = [
   {
@@ -49,6 +50,12 @@ const routes = [
     name: "ServiceInfo",
 
     component: ServiceInfo,
+  },
+  {
+    path: "/reservation-status",
+    name: "ReservationStatus",
+
+    component: ReservationStatus,
   },
 ];
 
